@@ -75,6 +75,10 @@ This should be done by each member of the team.
   your to merge first
 * Bob: merge your branch and push the result
 
+## Task 4 bis - Happy  rebase
+
+Some as task 4, but use `rebase` so that there is no merge commit in the history.
+
 ## Task 5 - Conflict resolution
 
 *Goal: learn about merging conflicting changes*
