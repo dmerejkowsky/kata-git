@@ -86,7 +86,7 @@ Some as task 4, but use `rebase` so that there is no merge commit in the history
 
 *Goal: learn about merging conflicting changes*
 
-* Alice: Edit 'conflict.txt' and add the following line:
+* Alice: Edit 'conflict.txt' and add the following text on line 2:
 
 > C'est la goutte d'eau qui met le feu aux poudres
 
@@ -94,7 +94,7 @@ Some as task 4, but use `rebase` so that there is no merge commit in the history
 
 * Bob: make sure to *not* fetch Alice's changes at this point.
 
-* Bob: Edit 'conflict.txt' and add the following line:
+* Bob: Edit 'conflict.txt' and add the following line also on line 2:
 
 > C'est l'étincelle qui fait déborder le vase
 
@@ -117,7 +117,7 @@ Use cherry-picking to fix the COPYRIGHT year on the `release` branch as well
 
 Make three commits that each add one line in a different file.
 
-Use rebase to put the commits in reverse order.
+Use interactive rebase to put the commits in reverse order.
 
 Harder: make three commits that each add one line to the `index.html` file so you end up with:
 
