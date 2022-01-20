@@ -73,7 +73,7 @@ This should be done by each member of the team.
 * Alice: Change the `<title>` in `index.html`
 * Alice: push the changes to the main branch
 * Bob: do *not* fetch Alice's changes
-* Bob: change something in the Javascript code
+* Bob: change something in the JavaScript code
 * Bob: make a commit and try to push it to the main branch - git will ask
   your to merge first
 * Bob: merge your branch and push the result
