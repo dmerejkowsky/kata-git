@@ -115,7 +115,7 @@ Use cherry-picking to fix the COPYRIGHT year on the `release` branch as well
 
 ## Task 7 - Rebase
 
-Make three commits that each add one line in a different file.
+Make three commits that each add one line in a distinct, existing file.
 
 Use interactive rebase to put the commits in reverse order.
 
