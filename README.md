@@ -29,7 +29,7 @@ Make sure Alice and Bob both have cloned the repo
 * Alice: add your name to the THANKS
 * Alice: make a commit with the message "Add Alice to THANKS file"
 * Alice: push the commit to the main branch
-* Bob: fetch Alice's changes from the main branch
+* Bob: get Alice's changes from the main branch (using `fetch` and `merge` for instance)
 * Bob: make a commit with the message "Add Bob to THANKS file"
 * Bob: push the commit to the main branch
 * Alice: update the main branch
