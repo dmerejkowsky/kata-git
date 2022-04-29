@@ -15,6 +15,14 @@ The first task is to clone this repo in a place where you have *write* access.
 
 You can either fork it on GitHub, or re-create it from scratch on GitLab for instance.
 
+## Task 1 - Simple commit
+
+* Edit a file in this repo
+* Make a change
+* Make sure the changed are saved
+* Add the file with `git add <file>`
+* Make a commit with `git commit -m "<message>"`
+
 ## Task 1 - git log, git blame
 
 There's a typo in the file `numbers.txt` - find the name and email of the
