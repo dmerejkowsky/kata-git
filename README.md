@@ -147,8 +147,8 @@ have to solve conflicts during the rebase - have fun.
 
 ## Task 10 - Code review
 
-* Alice: Fix style issues in 'index.html'
-* Alice: Make sure to include a typo in the code
+* Alice: Add some code in 'index.html'
+* Alice: Make sure to include a small mistake in the code you added
 * Alice: Make a commit and push it in a branch named 'fix-style'
 * Alice: Create a merge request (GitLab) or a pull request (GitHub)
 * Bob: look at Alice's changes and leave some comments about the typo
