@@ -1,6 +1,7 @@
 class TransactionParser {
 	constructor() {
 		this.parsed = null
+		this.count = 0
 	}
 	
 	parse(stuff) {
