@@ -17,7 +17,7 @@
       <button v-on:click="onClick">Click Me!</button>
     </div>
 
-    <div id="counter">
+    <div id="counterMinus">
       CounterMinus: {{ counterMinus }}
       <button v-on:click="onClick">Click Me!</button>
     </div>
@@ -52,6 +52,7 @@ const CounterMinus = {
 };
 
 Vue.createApp(Counter).mount('#counter')
+Vue.createApp(CounterMinus).mount('#counterMinus')
 </script>
 
 </html>
