@@ -17,6 +17,11 @@
       <button v-on:click="onClick">Click Me!</button>
     </div>
 
+    <div id="counter">
+      CounterMinus: {{ counterMinus }}
+      <button v-on:click="onClick">Click Me!</button>
+    </div>
+
   </body>
 
 <script>
@@ -29,6 +34,19 @@ const Counter = {
   methods: {
     onClick() {
       this.counter++
+    }
+  },
+};
+
+const CounterMinus = {
+  data() {
+    return {
+      counterMinus: 0
+    }
+  },
+  methods: {
+    onClick() {
+      this.counterMinus++
     }
   },
 };
