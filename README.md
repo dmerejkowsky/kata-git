@@ -71,9 +71,9 @@ to check everything worked as intended.
 
 ## Task 3 - Clone this repo
 
-The first task is to clone this repo in a place where you have *write* access.
+You have to clone this to clone this repo in a place where you have *write* access.
 
-You can either fork it on GitHub, or re-create it from scratch on GitLab for instance.
+You can either fork it on GitHub, re-create it from scratch on GitLab for instance, or import it.
 
 ## Task 4 - git log, git blame
 
