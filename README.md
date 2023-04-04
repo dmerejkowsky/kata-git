@@ -213,7 +213,7 @@ Hints:
 * You can create a tag to verify your rebase does presevre all the changes
 
 
-## Task 13 - Cherry-picking
+## Task 13 - Cherry-pick and make a release
 
 If you look at the repo, you will see that the 'release' branch does not contain
 the commit that bumps the year in the `COPYRIGHT` file (which is expected since it was
