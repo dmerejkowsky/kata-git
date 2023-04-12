@@ -80,7 +80,38 @@ You can either fork it on GitHub, re-create it from scratch on GitLab for instan
 There's a typo in the file `numbers.txt` - find the name and email of the
 dev who is responsible for this !
 
-## Task 5 - The cycle of collaboration
+## Task 5 - Two commits from one file
+
+*Goal: learn about the git index*
+
+This should be done by each member of the team.
+
+* Change at least two different lines in `index.html` file (I'm sure you can find something to improve)
+
+* Make two commits, each one containing a different line change.
+
+## Task 6 - Undoing changes
+
+*Goal: learn about the various ways to undo changes in git*
+
+This should be done by each member of the team.
+
+* Revert the two commits made during task 2
+
+* Change a few lines in `index.html` and then restore the file to its original version
+
+* Move the head of the branch to where it was before task 2 started branch
+
+## Task 7 - Start working on a new branch
+
+*Goal: learn about creating a new branch and switching to it*
+
+* Create a new branch called `experimentations` and switch to it
+* Change something in the `index.html` file and make a commit
+* Confirm that the change is only in the `experimentations` branch: switch back to the
+  `main` branch and verify that the changes you just made are no longer there.
+
+## Task 8 - The cycle of collaboration
 
 *Goal: learn how to share a branch across the same team*
 
@@ -110,29 +141,8 @@ Alice should end up with a log looking like this:
 +Alice
 ```
 
-## Task 6 - Two commits from one file
 
-*Goal: learn about the git index*
-
-This should be done by each member of the team.
-
-* Change at least two different lines in `index.html` file (I'm sure you can find something to improve)
-
-* Make two commits, each one containing a different line change.
-
-## Task 7 - Undoing changes
-
-*Goal: learn about the various ways to undo changes in git*
-
-This should be done by each member of the team.
-
-* Revert the two commits made during task 2
-
-* Change a few lines in `index.html` and then restore the file to its original version
-
-* Move the head of the branch to where it was before task 2 started branch
-
-## Task 8 - Happy merge
+## Task 9 - Happy merge
 
 *Goal: show how to merge in the trivial case*
 
@@ -144,11 +154,11 @@ This should be done by each member of the team.
   your to merge first
 * Bob: merge your branch and push the result
 
-## Task 9 - Happy  rebase
+## Task 10 - Happy  rebase
 
 Some as the previous one, but use `rebase` so that there is no merge commit in the history.
 
-## Task 10 - Conflict resolution
+## Task 11 - Conflict resolution
 
 *Goal: learn about merging conflicting changes*
 
@@ -171,7 +181,7 @@ Some as the previous one, but use `rebase` so that there is no merge commit in t
 
 * Alice & Bob: resolve the conflict and push the resolution
 
-## Task 11 - Code review using a feature branch
+## Task 12 - Code review using a feature branch
 
 * Alice: switch to a new branch named `feature/stuff`
 * Alice: Add some code in 'index.html'
@@ -184,7 +194,7 @@ Some as the previous one, but use `rebase` so that there is no merge commit in t
 * Bob: Merge Alice's branch
 
 
-## Task 12 - Interactive rebase
+## Task 13 - Interactive rebase
 
 Switch to the `dev` branch.
 
@@ -213,7 +223,7 @@ Hints:
 * You can create a tag to verify your rebase does presevre all the changes
 
 
-## Task 13 - Cherry-pick and make a release
+## Task 14 - Cherry-pick and make a release
 
 If you look at the repo, you will see that the 'release' branch does not contain
 the commit that bumps the year in the `COPYRIGHT` file (which is expected since it was
