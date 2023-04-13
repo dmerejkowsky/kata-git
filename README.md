@@ -75,6 +75,15 @@ You have to clone this to clone this repo in a place where you have *write* acce
 
 You can either fork it on GitHub, re-create it from scratch on GitLab for instance, or import it.
 
+If you use the command line, make sure to *change the working directory* after cloning the repo,
+for instance:
+
+```
+$ git clone https://github.com/dmerejkowsky/kata-git
+# this wil create a `kata-git` repository
+$ cd kata-git
+```
+
 ## Task 4 - git log, git blame
 
 There's a typo in the file `numbers.txt` - find the name and email of the
